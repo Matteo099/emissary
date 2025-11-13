@@ -74,7 +74,7 @@ RUN apk --no-cache add \
 # https://github.com/jazzband/pip-tools/#versions-and-compatibility to
 # select a pip-tools version that corresponds to the 'py3-pip' and
 # 'python3' versions above.
-RUN pip3 install "Cython<3.0" pip-tools==7.3
+RUN pip3 install "Cython<3.0" pip-tools==7.4
 
 RUN curl --fail -L https://dl.google.com/go/go1.25.4.linux-amd64.tar.gz | tar -C /usr/local -xzf -
 

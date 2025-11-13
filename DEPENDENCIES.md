@@ -3,7 +3,7 @@ following Free and Open Source software:
 
     Name                                                                                    Version                                License(s)
     ----                                                                                    -------                                ----------
-    the Go language standard library ("std")                                                v1.23.3                                3-clause BSD license
+    the Go language standard library ("std")                                                v1.25.4                                3-clause BSD license
     cel.dev/expr                                                                            v0.19.2                                Apache License 2.0
     dario.cat/mergo                                                                         v1.0.1                                 3-clause BSD license
     github.com/Azure/go-ansiterm                                                            v0.0.0-20250102033503-faa5f7b0171c     MIT license
@@ -186,34 +186,34 @@ following Free and Open Source software:
 The Emissary-ingress Python code makes use of the following Free and Open Source
 libraries:
 
-    Name                Version      License(s)
-    ----                -------      ----------
-    Cython              0.29.37      Apache License 2.0
-    Flask               3.1.0        3-clause BSD license
-    Jinja2              3.1.6        3-clause BSD license
-    MarkupSafe          3.0.2        2-clause BSD license
-    PyYAML              6.0.1        MIT license
-    Werkzeug            3.1.3        3-clause BSD license
-    blinker             1.9.0        MIT license
-    build               1.2.2.post1  MIT license
-    certifi             2025.1.31    Mozilla Public License 2.0
-    charset-normalizer  3.4.1        MIT license
-    click               8.1.8        3-clause BSD license
-    durationpy          0.9          MIT license
-    expiringdict        1.2.2        Apache License 2.0
-    gunicorn            23.0.0       MIT license
-    idna                3.10         3-clause BSD license
-    itsdangerous        2.2.0        3-clause BSD license
-    jsonpatch           1.33         3-clause BSD license
-    jsonpointer         3.0.0        3-clause BSD license
-    orjson              3.10.15      Apache License 2.0, MIT license
-    packaging           23.1         2-clause BSD license, Apache License 2.0
-    pip-tools           7.3.0        3-clause BSD license
-    prometheus_client   0.21.1       Apache License 2.0
-    pyparsing           3.0.9        MIT license
-    pyproject_hooks     1.2.0        MIT license
-    python-json-logger  3.2.1        2-clause BSD license
-    requests            2.32.3       Apache License 2.0
-    semantic-version    2.10.0       2-clause BSD license
-    typing_extensions   4.12.2       Python Software Foundation license
-    urllib3             2.3.0        MIT license
+    Name                Version     License(s)
+    ----                -------     ----------
+    Cython              0.29.37     Apache License 2.0
+    Flask               3.1.2       3-clause BSD license
+    Jinja2              3.1.6       3-clause BSD license
+    MarkupSafe          3.0.3       3-clause BSD license
+    PyYAML              6.0.1       MIT license
+    Werkzeug            3.1.3       3-clause BSD license
+    blinker             1.9.0       MIT license
+    build               1.3.0       MIT license
+    certifi             2025.11.12  Mozilla Public License 2.0
+    charset-normalizer  3.4.4       MIT license
+    click               8.3.0       3-clause BSD license
+    durationpy          0.10        MIT license
+    expiringdict        1.2.2       Apache License 2.0
+    gunicorn            23.0.0      MIT license
+    idna                3.11        3-clause BSD license
+    itsdangerous        2.2.0       3-clause BSD license
+    jsonpatch           1.33        3-clause BSD license
+    jsonpointer         3.0.0       3-clause BSD license
+    orjson              3.11.4      MIT license
+    packaging           23.1        2-clause BSD license, Apache License 2.0
+    pip-tools           7.4.0       3-clause BSD license
+    prometheus_client   0.23.1      Apache License 2.0
+    pyparsing           3.0.9       MIT license
+    pyproject_hooks     1.2.0       MIT license
+    python-json-logger  4.0.0       2-clause BSD license
+    requests            2.32.5      Apache License 2.0
+    semantic-version    2.10.0      2-clause BSD license
+    typing_extensions   4.15.0      Python Software Foundation license
+    urllib3             2.5.0       MIT license

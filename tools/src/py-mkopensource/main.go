@@ -34,35 +34,38 @@ func parseLicenses(name, version, license string) map[License]struct{} {
 		// that a human has to go make sure that the license didn't
 		// change when upgrading.
 		{"blinker", "1.9.0", ""}:                                {MIT},
-		{"build", "1.2.2.post1", ""}:                            {MIT},
+		{"build", "1.3.0", ""}:                                  {MIT},
 		{"CacheControl", "0.12.6", "UNKNOWN"}:                   {Apache2},
-		{"Flask", "3.1.0", ""}:                                  {BSD3},
+		{"Flask", "3.1.2", ""}:                                  {BSD3},
 		{"GitPython", "3.1.44", "UNKNOWN"}:                      {BSD3},
 		{"Jinja2", "3.1.6", ""}:                                 {BSD3},
-		{"MarkupSafe", "3.0.2", "Copyright 2010 Pallets"}:       {BSD2},
-		{"click", "8.1.8", ""}:                                  {BSD3},
+		{"MarkupSafe", "3.0.2", "Copyright 2010 Pallets"}:       {BSD3},
+                {"MarkupSafe", "3.0.3", ""}:                             {BSD3},
+		{"click", "8.3.0", ""}:                                  {BSD3},
 		{"decorator", "5.2.1", "new BSD License"}:               {BSD2},
 		{"gitdb", "4.0.12", "BSD License"}:                      {BSD3},
 		{"gunicorn", "23.0.0", "None"}:                          {MIT},
-		{"idna", "3.10", ""}:                                    {BSD3},
+		{"idna", "3.11", ""}:                                    {BSD3},
 		{"itsdangerous", "2.2.0", ""}:                           {BSD3},
 		{"jsonpatch", "1.33", "Modified BSD License"}:           {BSD3},
 		{"jsonpointer", "3.0.0", "Modified BSD License"}:        {BSD3},
-		{"pip-tools", "7.3.0", "BSD"}:                           {BSD3},
+		{"pip-tools", "7.4.0", "BSD"}:                           {BSD3},
 		{"ptyprocess", "0.7.0", "UNKNOWN"}:                      {ISC},
 		{"pycparser", "2.22", "BSD"}:                            {BSD3},
 		{"pyparsing", "3.0.9", ""}:                              {MIT},
 		{"pyproject_hooks", "1.2.0", ""}:                        {MIT},
-		{"python-json-logger", "3.2.1", "BSD-2-Clause License"}: {BSD2},
+		{"python-json-logger", "4.0.0", "BSD-2-Clause License"}: {BSD2},
+                {"prometheus_client", "0.23.1", ""}:                     {Apache2},
 		{"semantic-version", "2.10.0", "BSD"}:                   {BSD2},
 		{"smmap", "5.0.2", "BSD"}:                               {BSD3},
-		{"typing_extensions", "4.12.2", ""}:                     {PSF},
-		{"urllib3", "2.3.0", ""}:                                {MIT},
+		{"typing_extensions", "4.15.0", ""}:                     {PSF},
+		{"urllib3", "2.5.0", ""}:                                {MIT},
 		{"Werkzeug", "3.1.3", ""}:                               {BSD3},
 
 		// These are packages with non-trivial strings to parse, and
 		// it's easier to just hard-code it.
-		{"orjson", "3.10.15", "Apache-2.0 OR MIT"}: {Apache2, MIT},
+		{"orjson", "3.10.15", "Apache-2.0 OR MIT"}:  {Apache2, MIT},
+                {"orjson", "3.11.4", ""}:                   {MIT},
 		{"packaging", "23.1", ""}:                  {BSD2, Apache2},
 	}[tuple{name, version, license}]
 	if ok {
@@ -93,7 +96,8 @@ func parseLicenses(name, version, license string) map[License]struct{} {
 
 		"3-Clause BSD License": {BSD3},
 		"BSD-3-Clause":         {BSD3},
-		"BSD 3 Clause":         {BSD3},
+		"BSD 3-Clause":         {BSD3},
+                "BSD 3 Clause":         {BSD3},
 
 		"GPLv2": {GPL2Only},
 
