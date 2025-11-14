@@ -133,15 +133,15 @@ following Free and Open Source software:
     go.uber.org/goleak                                                                      v1.3.0                                 MIT license
     go.uber.org/multierr                                                                    v1.11.0                                MIT license
     go.uber.org/zap                                                                         v1.27.0                                MIT license
-    golang.org/x/crypto                                                                     v0.32.0                                3-clause BSD license
+    golang.org/x/crypto                                                                     v0.36.0                                3-clause BSD license
     golang.org/x/exp                                                                        v0.0.0-20250128182459-e0ece0dbea4c     3-clause BSD license
     golang.org/x/mod                                                                        v0.23.0                                3-clause BSD license
-    golang.org/x/net                                                                        v0.34.0                                3-clause BSD license
-    golang.org/x/oauth2                                                                     v0.26.0                                3-clause BSD license
-    golang.org/x/sync                                                                       v0.11.0                                3-clause BSD license
-    golang.org/x/sys                                                                        v0.30.0                                3-clause BSD license
-    golang.org/x/term                                                                       v0.29.0                                3-clause BSD license
-    golang.org/x/text                                                                       v0.22.0                                3-clause BSD license
+    golang.org/x/net                                                                        v0.38.0                                3-clause BSD license
+    golang.org/x/oauth2                                                                     v0.27.0                                3-clause BSD license
+    golang.org/x/sync                                                                       v0.12.0                                3-clause BSD license
+    golang.org/x/sys                                                                        v0.31.0                                3-clause BSD license
+    golang.org/x/term                                                                       v0.30.0                                3-clause BSD license
+    golang.org/x/text                                                                       v0.23.0                                3-clause BSD license
     golang.org/x/time                                                                       v0.10.0                                3-clause BSD license
     golang.org/x/tools                                                                      v0.29.0                                3-clause BSD license
     gomodules.xyz/jsonpatch/v2                                                              v2.4.0                                 Apache License 2.0
