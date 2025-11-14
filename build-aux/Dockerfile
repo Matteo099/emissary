@@ -93,6 +93,8 @@ COPY --from=golang /go/bin/* /buildroot/bin/
 
 # Setup the python code
 ADD python python
+# Upgrade setuptools to a safe version first
+RUN python -m pip install --upgrade pip setuptools==78.1.1
 RUN time pip install --no-deps -e python
 
 # Run post-compile.sh
